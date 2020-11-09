@@ -1,0 +1,6 @@
+package fr.eql.ai108.exception;
+
+public class DivisionParZeroException extends Exception{
+
+	
+}

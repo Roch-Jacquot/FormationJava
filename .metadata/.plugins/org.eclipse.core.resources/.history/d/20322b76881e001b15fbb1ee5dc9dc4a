@@ -1,0 +1,13 @@
+package fr.eql.ai108.collection;
+
+import java.util.List;
+
+public class DemoArrayList {
+
+	public static void main(String[] args) {
+		// instancier un ArrayList de personne
+
+		List<Personne> personnes = new ArrayList<Personne>
+	}
+
+}

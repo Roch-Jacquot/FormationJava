@@ -1,0 +1,13 @@
+package fr.eql.initalgo.demo;
+
+public class HelloEclipse {
+	
+	import java.util.*;
+
+		
+	public static void main(String[] args) {
+			System.out.println("test");
+		/* Vous pouvez aussi effectuer votre traitement une fois que vous avez lu toutes les données.*/
+
+		}
+	}

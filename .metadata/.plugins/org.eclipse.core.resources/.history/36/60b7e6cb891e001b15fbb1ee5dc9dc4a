@@ -1,0 +1,19 @@
+package fr.eql.ai108.collection;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import fr.eql.ai108.valref.Personne;
+
+public class DemoArrayList {
+
+	public static void main(String[] args) {
+		// instancier un ArrayList de personne
+
+		List<Personne> personnes = new ArrayList<Personne>();
+		
+		Personne sacha = new Personne("de Bourg Palette", "Sacha", 12);
+		Personne pierre = new Personne()
+	}
+
+}

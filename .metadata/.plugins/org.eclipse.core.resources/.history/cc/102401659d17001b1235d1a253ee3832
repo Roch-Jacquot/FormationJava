@@ -1,0 +1,35 @@
+package fr.eql.ai108.tp;
+
+import java.util.Scanner;
+
+public class Exercice4 {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+
+		/*Ecrire un programme qui demande l'âge d'un enfant à l'utilisateur. Ensuite, il l'informe 
+		 * de sacatégorie :–
+		 * « Poussin » de 6 à 7 ans–
+		 * « Pupille » de 8 à 9 ans–
+		 * « Minime » de 10 à 11 ans–
+		 * « Cadet » après 12 ans*/
+		
+		System.out.println("Veuillez m'indiquer l'âge de votre gamin");
+		
+		int age = scan.nextInt();
+		
+		switch(age) {
+			
+			case 6 :
+				System.out.println("");
+				
+			
+			
+			
+			
+		}
+		
+	}
+
+}

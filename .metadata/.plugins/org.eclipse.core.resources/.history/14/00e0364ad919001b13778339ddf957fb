@@ -1,0 +1,71 @@
+package fr.eql.aiXXX.poo.tp;
+
+public class Serie {
+	String titre;
+	String synopsis;
+	int nbSaison;
+	String[] personnage;
+	
+	public Serie() {}
+	
+	public Serie(String titre, String synopsis, int nbSaison) {
+		this.titre = titre;
+		this.synopsis = synopsis;
+		this.nbSaison = nbSaison;
+	}
+
+	public void presenterSerie() {
+		System.out.println("Titre: " + titre + "\nSynopsis: " + synopsis +
+				"\nNombre de saisons: " + nbSaison);
+		
+	}
+	
+	
+	
+	public String obtenirInitialesPersonnages() {
+		String tps = "";
+		String[] holder;
+		for (int i = 0; i < personnage.length; i++) {
+			holder = personnage[i].split(" ");
+			tps += holder[0].charAt(0) + "." + holder[1].charAt(0) + ".";
+			//tps += personnage[i] + "\n";
+		}
+		return tps;
+	}
+	
+	
+	public String[] getPersonnage() {
+		return this.personnage;
+	}
+	public void setPersonnage(String[] personnage) {
+		this.personnage = personnage;
+	}
+	
+	
+	public String getTitre() {
+		return titre;
+	}
+
+	public void setTitre(String titre) {
+		this.titre = titre;
+	}
+
+	public String getSynopsis() {
+		return synopsis;
+	}
+
+	public void setSynopsis(String synopsis) {
+		this.synopsis = synopsis;
+	}
+
+	public int getNbSaison() {
+		return nbSaison;
+	}
+
+	public void setNbSaison(int nbSaison) {
+		this.nbSaison = nbSaison;
+	}
+
+	
+	
+}

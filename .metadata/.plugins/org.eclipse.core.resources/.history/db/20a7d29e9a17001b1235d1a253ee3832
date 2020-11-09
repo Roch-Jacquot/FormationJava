@@ -1,0 +1,23 @@
+package fr.eql.ai108.tp;
+
+import java.util.Scanner;
+
+public class Exercice1 {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		int var = scan.nextInt();
+		if(var > 0) {
+			System.out.println("Ce nombre est positif");
+		} else if(var < 0) {
+			System.out.println("Ce nombre est négatif");
+		} else if(var ==0) {
+			System.out.println();
+		}
+		
+		
+	}
+
+}

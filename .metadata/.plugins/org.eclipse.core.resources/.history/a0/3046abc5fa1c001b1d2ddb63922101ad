@@ -1,0 +1,15 @@
+package fr.eql.ai108.valref;
+
+public class PassageParReferenceDansMethode {
+
+	public static void main(String[] args) {
+		Personne capitaine = new Personne("Haddock", "Francois", 62);
+		vieillir(caputaine);
+
+	}
+	
+	public static void vieillir(Personne personne) {
+		personne.setAge(personne.getAge()+1);
+	}
+
+}

@@ -1,0 +1,16 @@
+package rechercheV1;
+
+public class Justification {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		String string = "";
+		
+		char[] monCar = string.toCharArray();
+		
+		// 1 - initialiser le String et le convertir en liste de char
+	}
+
+}

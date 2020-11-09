@@ -1,0 +1,19 @@
+package rechercheV1;
+
+public class BinarySearchCorrige {
+
+	public static void main(String[] args) {
+
+		String[] liste = {"Azkaban", "Bobba", "Edwige", "Ermione", "Fili", 
+				"Frodon", "Gandalf", "Gimli", "Gollum", "Han solo", "Mithrandir"};
+		String recherche = "Edwige";
+		int debut = 0;
+		int fin = liste.length;
+		
+
+		
+		int milieu = (debut + fin)/2;
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package fr.eql.ai108.heritage;
+
+public class InstrumentDeMusique {
+
+	private String nom;
+	private String marque;
+	private float prix;
+	
+	
+	
+	public InstrumentDeMusique(String nom, String marque, float prix) {
+		super();
+		this.nom = nom;
+		this.marque = marque;
+		this.prix = prix;
+	}
+	
+	
+}

@@ -1,0 +1,39 @@
+package fr.eql.ai108.poo;
+
+public class Chien {
+	public String nom;
+	public int age;
+	public float taille;
+	public float poids;
+	public String race;
+	public boolean estGentil;
+	public char pedigree;
+	
+	public Chien(String sonNom, int sonAge, float saTaille, float sonPoids, String saRace,
+			boolean estIlGentil, char sonPedigree) {
+		nom = sonNom;
+		age = sonAge;
+		taille = saTaille;
+		poids = sonPoids;
+		race = saRace;
+		estGentil = estIlGentil;
+		pedigree = sonPedigree;
+		
+	}
+	
+	public Chien() {}
+	
+	public void aboyer() {
+		System.out.println("Woof woof!");
+		
+	}
+	
+	public void ramenerLaBalle(int nbFois) {
+		System.out.println("Je ramène " + nbFois + " la balle");
+		
+	}
+	
+	public float rapportTaillePoids() {
+		return taille/poids;
+	}
+}

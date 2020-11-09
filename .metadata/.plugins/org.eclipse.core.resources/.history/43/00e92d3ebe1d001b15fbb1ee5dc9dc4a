@@ -1,0 +1,8 @@
+package fr.eql.ai108.heritage;
+
+public class Piano extends InstrumentDeMusique {
+	
+	private int nbTouche;
+	
+	
+}

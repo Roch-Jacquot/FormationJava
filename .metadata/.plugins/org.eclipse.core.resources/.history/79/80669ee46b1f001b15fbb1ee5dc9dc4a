@@ -1,0 +1,10 @@
+package fr.eql.ai108.collection;
+
+public class DemoComparaison {
+	
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

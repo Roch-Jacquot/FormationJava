@@ -1,0 +1,8 @@
+package fr.eql.ai108.exception;
+
+class Calculatrice {
+
+	public double diviser() {
+		
+	}
+}

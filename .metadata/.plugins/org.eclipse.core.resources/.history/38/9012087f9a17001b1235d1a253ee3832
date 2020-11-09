@@ -1,0 +1,17 @@
+package fr.eql.ai108.tp;
+
+import java.util.Scanner;
+
+public class Exercice1 {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		int var = scan.nextInt();
+		if()
+		
+		System.out.println();
+	}
+
+}

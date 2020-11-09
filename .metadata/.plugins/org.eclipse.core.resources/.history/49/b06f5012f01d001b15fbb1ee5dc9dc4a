@@ -1,0 +1,16 @@
+package rechercheV1;
+
+public class ExempleAnalyse {
+
+	public static void main(String[] args) {
+		
+		
+		// 1 - identifier le joueur
+		
+		// 2 - jouer un tour
+		
+		// 3 - afficher le score
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package fr.eql.ai108.tp.bibliothèque;
+
+public class Lecteur {
+	
+	String nom;
+	String prenom;
+	Stringe adresse;
+	Livre[] livres;
+}

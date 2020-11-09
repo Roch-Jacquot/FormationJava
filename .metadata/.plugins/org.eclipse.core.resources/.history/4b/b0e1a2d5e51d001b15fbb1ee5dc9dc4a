@@ -1,0 +1,29 @@
+package rechercheV1;
+
+public class BinarySearchCorrige {
+
+	public static void main(String[] args) {
+		
+		//Init
+
+		String[] noms = {"Azkaban", "Bobba", "Edwige", "Ermione", "Fili", 
+				"Frodon", "Gandalf", "Gimli", "Gollum", "Han solo", "Mithrandir"};
+		String recherche = "Edwige";
+		int debut = 0;
+		int fin = noms.length;
+		
+		int milieu = (debut + fin)/2;
+
+		
+		//traitement
+		
+		
+		while(debut != fin) {
+			if(recherche.equals(noms[milieu])) {
+				
+				
+			}
+		}
+	}
+
+}

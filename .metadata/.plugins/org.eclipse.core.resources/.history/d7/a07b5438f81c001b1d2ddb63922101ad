@@ -1,0 +1,17 @@
+package fr.eql.ai108.valref;
+
+public class PassageParValeurDansMethode {
+
+	public static void main(String[] args) {
+		
+		int nombre = 100;
+		doubler(nombre);
+
+	}
+	
+	public static void doubler (int nb) {
+		nb*= 2;
+		System.out.println("Dans la méthode doubler, nb vaut " + nb);
+	}
+
+}

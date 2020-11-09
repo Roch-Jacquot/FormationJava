@@ -1,0 +1,23 @@
+package fr.eql.ai108.heritage;
+
+public class Basse extends InstrumentDeMusique {
+
+	private int nbCordes;
+	private boolean esActive;
+	
+	
+	public Basse(String nom, String marque, float prix) {
+		super(nom, marque, prix);
+		// TODO Auto-generated constructor stub
+	}
+
+
+	public Basse(String nom, String marque, float prix, int nbCordes, boolean esActive) {
+		super(nom, marque, prix);
+		this.nbCordes = nbCordes;
+		this.esActive = esActive;
+	}
+	
+	
+	
+}

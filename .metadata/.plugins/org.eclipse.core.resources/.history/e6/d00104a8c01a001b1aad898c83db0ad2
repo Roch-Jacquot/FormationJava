@@ -1,0 +1,10 @@
+package fr.eql.ai108.debug.scanner;
+
+public class Methode1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

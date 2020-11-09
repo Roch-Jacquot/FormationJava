@@ -1,0 +1,13 @@
+package rechercheV1;
+
+public class Mastermind {
+
+	public static void main(String[] args) {
+		//PARAMETRES :
+			//tableau GuessJoueur : Char
+			//tableau GuessOrdi : Char
+			//tableau actualJoueur
+			//tableau actualOrdi
+	}
+
+}

@@ -1,0 +1,17 @@
+package fr.eql.ai108.collection;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import fr.eql.ai108.valref.Personne;
+
+public class DemoComparaison {
+	
+	
+	public static void main(String[] args) {
+	
+		List<Personne> personnes = new ArrayList<Personne>();
+		Personne sacha = new Personne("Ketchum", "Sacha", 10);
+	}
+
+}

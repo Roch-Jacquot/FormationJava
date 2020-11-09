@@ -1,0 +1,16 @@
+package rechercheV1;
+
+public class BinarySearchCorrige {
+
+	public static void main(String[] args) {
+
+		String[] liste = {"Adele", "Alice", "Anatole", "Bill", "Bob", "Brice", "Carole", "Cedrit", "Denis"};
+
+		int début = 0;
+		int fin = liste.length;
+		
+		String recherche = "Anatole";
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package fr.eql.ai108.collection;
+
+import java.util.ArrayList;
+
+public class DemoIterator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		List<Integer> liste = new ArrayList<E>()
+	}
+
+}

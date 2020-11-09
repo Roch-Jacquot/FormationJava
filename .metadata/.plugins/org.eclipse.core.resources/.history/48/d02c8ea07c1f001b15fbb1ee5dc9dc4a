@@ -1,0 +1,30 @@
+package fr.eql.ai108.collection;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
+import fr.eql.ai108.valref.Personne;
+import fr.eql.ai108.realPOO.Chien;
+
+public class DemoMapObjet {
+
+	public static void main(String[] args) {
+		
+		Map<Personne, Set<Chien>> personnePokemonMap = new HashMap<Personne, Set<Chien>>();
+		
+		Personne sacha = new Personne("Ketchum", "Sacha", 10);
+		
+		Personne ondine = new Personne("Azuria", "Ondine", 12);
+		
+		Chien pikachu = new Chien("Pikachu", 2, 1.2f, 2.5f, "Foudre", 'P');
+		Chien dracofeu = new Chien("Dracofeu", 3, 1.2f, 45f, "Feu", 'D');
+		Chien poissireine = new Chien("Poissireine", 2, 4f, 5f, "Eau", 'P');
+		Chien roucoups = new Chien("Roucoups", 4, 5f, 1.2f, "Air", 'R');
+
+		//Création des clés et initialisation des valeurs
+		personnePokemonMap.put(sacha, new HashSet<Chien>());
+	}
+
+}

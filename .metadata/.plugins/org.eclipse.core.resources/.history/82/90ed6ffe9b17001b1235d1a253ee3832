@@ -1,0 +1,19 @@
+package fr.eql.ai108.tp;
+
+import java.util.Scanner;
+
+public class Exercice3 {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Veuillez choisir un nombre");
+		
+		int nombre = scan.nextInt();
+		
+		if(nombre)
+		
+
+	}
+
+}

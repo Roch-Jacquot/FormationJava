@@ -1,0 +1,31 @@
+package fr.eql.ai108.realPOO;
+
+public class Chien {
+	private String nom;
+	private int age;
+	private float taille;
+	private float poids;
+	private boolean estGentil;
+	private String race;
+	private char pedigree;
+	
+	public Chien() {}
+
+	public Chien(String nom, int age, float taille, float poids, String race, boolean estGentil, char pedigree) {
+		this.nom = nom;
+		this.age = age;
+		this.taille = taille;
+		this.poids = poids;
+		this.race = race;
+		this.estGentil = estGentil;
+		this.pedigree = pedigree;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+}

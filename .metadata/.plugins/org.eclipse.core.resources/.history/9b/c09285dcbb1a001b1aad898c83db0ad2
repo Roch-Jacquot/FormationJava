@@ -1,0 +1,216 @@
+package fr.eql.ai108.realPOO;
+
+public class Chien {
+	
+	private String nom;
+	private int age;
+	private float taille;
+	private float poids;
+	private String race;
+	private boolean estGentil;
+	private char pedigree;
+	
+	private Collier collier;
+	private Jouet[] jouets;
+	private GroupeChien groupe;
+	
+	
+	//variable de classe
+	
+	private static int nbChien;
+	
+	//ALT + shift + S + C
+	public Chien() {
+		nbChien++;}
+
+	//ALT + shift + S + O
+	public Chien(String nom, int age, float taille, float poids, String race, boolean estGentil, char pedigree) {
+		this.nom = nom;
+		this.age = age;
+		this.taille = taille;
+		this.poids = poids;
+		this.race = race;
+		this.estGentil = estGentil;
+		this.pedigree = pedigree;
+		nbChien++;
+	}
+	
+
+	public Chien(String nom, int age, float taille, float poids, String race, char pedigree, Collier collier) {
+		super();
+		this.nom = nom;
+		this.age = age;
+		this.taille = taille;
+		this.poids = poids;
+		this.race = race;
+		this.pedigree = pedigree;
+		this.collier = collier;
+	}
+
+	
+	public Chien(String nom, int age, float taille, float poids,  String race, boolean estGentil, char pedigree,
+			Collier collier) {
+		super();
+		this.nom = nom;
+		this.age = age;
+		this.taille = taille;
+		this.poids = poids;
+		this.estGentil = estGentil;
+		this.race = race;
+		this.pedigree = pedigree;
+		this.collier = collier;
+	}
+	
+	
+
+	public Chien(String nom, int age, float taille, float poids, String race, boolean estGentil,  char pedigree,
+			Collier collier, Jouet[] jouets) {
+		super();
+		this.nom = nom;
+		this.age = age;
+		this.taille = taille;
+		this.poids = poids;
+		this.estGentil = estGentil;
+		this.race = race;
+		this.pedigree = pedigree;
+		this.collier = collier;
+		this.jouets = jouets;
+	}
+	
+	
+	
+
+	public Chien(String nom, int age, float taille, float poids, String race, boolean estGentil, char pedigree,
+			Jouet[] jouets) {
+		super();
+		this.nom = nom;
+		this.age = age;
+		this.taille = taille;
+		this.poids = poids;
+		this.estGentil = estGentil;
+		this.race = race;
+		this.pedigree = pedigree;
+		this.jouets = jouets;
+	}
+	
+	
+
+	public Chien(String nom, int age, float taille, float poids, String race, boolean estGentil, char pedigree,
+			Jouet[] jouets, GroupeChien groupe) {
+		super();
+		this.nom = nom;
+		this.age = age;
+		this.taille = taille;
+		this.poids = poids;
+		this.estGentil = estGentil;
+		this.race = race;
+		this.pedigree = pedigree;
+		this.jouets = jouets;
+		this.groupe = groupe;
+	}
+
+	public void aboyer() {
+		System.out.println("Woof woof!");
+		
+	}
+	
+	public void ramenerLaBalle(int nbFois) {
+		System.out.println("Je ramène " + nbFois + " la balle");
+		
+	}
+	
+	public float rapportTaillePoids() {
+		return taille/poids;
+	}
+	
+	//Setters et Getters Alt + Shift + S + R
+	//getter
+	public String getNom() {
+		return nom;
+	}
+	
+	//setter
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public float getTaille() {
+		return taille;
+	}
+
+	public void setTaille(float taille) {
+		this.taille = taille;
+	}
+
+	public float getPoids() {
+		return poids;
+	}
+
+	public void setPoids(float poids) {
+		this.poids = poids;
+	}
+
+	public boolean isEstGentil() {
+		return estGentil;
+	}
+
+	public void setEstGentil(boolean estGentil) {
+		this.estGentil = estGentil;
+	}
+
+	public String getRace() {
+		return race;
+	}
+
+	public void setRace(String race) {
+		this.race = race;
+	}
+
+	public char getPedigree() {
+		return pedigree;
+	}
+
+	public void setPedigree(char pedigree) {
+		this.pedigree = pedigree;
+	}
+	
+	public static int getNbChien() {
+		return nbChien;
+	}
+
+	public Collier getCollier() {
+		return collier;
+	}
+
+	public void setCollier(Collier collier) {
+		this.collier = collier;
+	}
+
+	public Jouet[] getJouets() {
+		return jouets;
+	}
+
+	public void setJouets(Jouet[] jouets) {
+		this.jouets = jouets;
+	}
+
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+}

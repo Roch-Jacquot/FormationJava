@@ -1,0 +1,11 @@
+package fr.eql.ai108.heritage;
+
+public class Lanceur {
+
+	public static void main(String[] args) {
+
+		InstrumentDeMusique tambour = new InstrumentDeMusique("Tambour", "Tama", 78.12f);
+
+	}
+
+}

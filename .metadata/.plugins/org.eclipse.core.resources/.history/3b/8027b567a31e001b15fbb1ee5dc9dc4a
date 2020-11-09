@@ -1,0 +1,27 @@
+package rechercheV1;
+
+public class Justification {
+
+	public static void main(String[] args) {
+		
+		// 1 - initialiser le String et le convertir en tableau de char
+		
+		// 2 - définir : nombre de mots 
+		// 3 - nombre de lettres/caractères, 
+		// 4 -  nombre d'espaces total
+		// 5 - nombre séparateur
+
+		
+		String string = "    Ce texte,   qui  est volontairement très            mal  tapé, est justifié   correctement.";
+		System.out.println(string.length());
+		char[] monCar = string.toCharArray();
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

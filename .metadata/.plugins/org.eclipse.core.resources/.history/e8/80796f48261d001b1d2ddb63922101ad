@@ -1,0 +1,57 @@
+package rechercheV1;
+
+public class BinarySearch {
+
+	public static void main(String[] args) {
+		String[] liste = {"Adele", "Alice", "Anatole", "Bill", "Bob", "Brice", "Carole", "Cedrit", "Denis"};
+		
+		String nom = "Carole";
+		
+		String tps = "";
+		
+		int var = liste.length/2;
+		
+		//String.equals renvoie 0 si s1 = s2, 
+		//inféreur à zéro si s1 < s2
+		//supérieur à zero si s1 > s2
+		
+		
+		while(tps != nom) {
+			
+			tps = liste[var];
+			
+			if(tps.compareTo(nom) < 0) {
+				
+			} else if(tps < nom)
+			
+			if
+		}
+
+		
+		
+		/*
+		 
+String s1 = "Benoit";
+                String s2 = "Zoe";
+
+                // s1.compareTo(s2) :
+                // 0   si s1 = s2
+                // <0  si s1 < s2
+                // >0  si s1 > s2
+                
+                if(s1.compareTo(s2) > 0)
+                {
+                        System.out.println(s1 + " est plus grand que " + s2);
+                }
+                else if (s1.compareTo(s2) == 0)
+                {
+                        System.out.println(s1 + " est égal à " + s2);
+                }
+                else
+                {
+                        System.out.println(s1 + " est plus petit que " + s2);
+                }
+		 */
+	}
+
+}

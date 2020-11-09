@@ -1,0 +1,18 @@
+package fr.eql.ai108.tp.bibliothèque;
+
+public class Livre {
+
+	String titre;
+	String auteur;
+	int bisbn;
+	Categorie categorie;
+	public Livre(String titre, String auteur, int bisbn, Categorie categorie) {
+		super();
+		this.titre = titre;
+		this.auteur = auteur;
+		this.bisbn = bisbn;
+		this.categorie = categorie;
+	}
+	
+	
+}

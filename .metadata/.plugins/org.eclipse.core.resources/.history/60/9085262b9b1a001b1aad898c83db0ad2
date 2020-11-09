@@ -1,0 +1,12 @@
+package fr.eql.ai108.convertisseur;
+
+public class convertisseur {
+
+	private double tauxUSD = 1.16D;
+	public static double euroToUSD(double amount) {
+		
+		
+		
+	}
+
+}

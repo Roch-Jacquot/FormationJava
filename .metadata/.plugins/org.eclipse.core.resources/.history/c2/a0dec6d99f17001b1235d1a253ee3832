@@ -1,0 +1,36 @@
+package fr.eql.ai108.tp;
+
+public class Exercice5 {
+
+	
+	/*Ecrire un programme qui demande à l’utilisateur un login etun mot de passe. 
+	 * Si le login renseigné est «admin» et le mot de passe «123Soleil»,
+	 * le programme souhaite la bienvenue à l’utilisateur sur le Super Calculateur; 
+	 * autrement, l’utilisateur reçoit un message «Login et/ou Password incorrect(s)». 
+	 * Arrivé sur le Super Calculateur, le programme demande à l’utilisateur deux opérandes 
+	 * ainsi qu’une opération (addition, soustraction, multiplication, division). 
+	 * Enfin, le programme affiche le résultat de l’opération.
+	 */
+	public static void main(String[] args) {
+
+		//Afficher message demandant un login
+		//saisir le login
+		//Afficher message demandant un mdp
+		//saisir le mdp
+		
+		//if login ET mdp != constantes
+			//affiche "Login et/ou Password incorrect(s)"
+		
+		
+		//Else
+			// affiche "bienvenue sur le Super Calculateur"
+			// affiche la demande de deux operandes (double)
+			// affiche la demande d'operation(addition, soustraction, multiplication, division)
+		
+			//switch
+		
+		
+
+	}
+
+}

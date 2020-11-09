@@ -1,0 +1,8 @@
+package fr.eql.aiXXX.poo.tp;
+
+public class Serie {
+	String titre;
+	String synopsis;
+	int nbSaison;
+
+}

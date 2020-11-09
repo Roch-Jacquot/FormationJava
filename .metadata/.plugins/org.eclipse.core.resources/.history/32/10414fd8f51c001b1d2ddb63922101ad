@@ -1,0 +1,12 @@
+package fr.eql.ai108.valref;
+
+public class CopieParReference {
+
+	public static void main(String[] args) {
+		
+		Personne personne = new Personne("Haddock", "Francois", 62);
+		Personne tournesol = capitqine;
+
+	}
+
+}

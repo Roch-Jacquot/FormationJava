@@ -1,0 +1,10 @@
+package fr.eql.ai108.poo;
+
+public class DemoPrint {
+
+	public static void main(String[] args) {
+		String uneString = "Une chaine de caractères est un objet; elle possède donc des methodes d'instances";
+
+	}
+
+}

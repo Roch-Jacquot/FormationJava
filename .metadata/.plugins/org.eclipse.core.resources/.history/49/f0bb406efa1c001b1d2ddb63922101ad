@@ -1,0 +1,10 @@
+package fr.eql.ai108.valref;
+
+public class PassageParReferenceDansMethode {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package fr.eql.ai108.tp;
+
+public class Exercice6 {
+
+	public static void main(String[] args) {
+		
+		System.out.println("*");
+
+	}
+
+}

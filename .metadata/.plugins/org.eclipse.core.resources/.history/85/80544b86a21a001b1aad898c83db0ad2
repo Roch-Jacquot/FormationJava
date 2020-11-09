@@ -1,0 +1,16 @@
+package fr.eql.ai108.realPOO;
+
+public class TestRelation {
+
+	public static void main(String[] args) {
+		Chien ein = new Chien("ein", 8, 0.070f, 7.45f, "Welsh Corgy", true, 'E');
+		Collier collierEin = new Collier("rouge", "cuir");
+		ein.setCollier(collierEin);
+		System.out.println("Ein possède un collier en " + ein.getCollier().getMatiere() + " de couleur " + ein.getCollier().getCouleur()
+				+ ".");
+		
+		Collier collierLaika = new Collier("jaune", "tissus");
+		
+	}
+
+}

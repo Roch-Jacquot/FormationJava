@@ -1,0 +1,10 @@
+package stacks;
+
+public class EmpilerDepiler {
+
+	public static void main(String[] args) {
+		
+		double[] pile = new double[];
+		
+	}
+}

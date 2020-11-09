@@ -1,0 +1,12 @@
+package fr.eql.ai108.exception;
+
+class Calculatrice {
+
+	public double diviser(double dividende, double diviseur) {
+		if(diviseur == 0) {
+			throw new Exception();
+		}
+		
+		return dividende/diviseur;
+	}
+}

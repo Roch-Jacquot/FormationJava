@@ -1,0 +1,7 @@
+package fr.eql.ai108.tp.bibliothèque;
+
+public class Livre {
+
+	String titre;
+	String auteur;
+}

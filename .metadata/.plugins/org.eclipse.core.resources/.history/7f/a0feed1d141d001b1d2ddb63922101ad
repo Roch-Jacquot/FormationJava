@@ -1,0 +1,26 @@
+package rechercheV1;
+
+public class RechercheV1 {
+
+	public static void main(String[] args) {
+		
+		boolean trouve = false;
+		int compteur = 0;
+		String nom = "Carole";
+		String[] liste = {"Alice", "Bob", "John", "Carole", "David", "Emily", "Fabrice"};
+		
+		while(!trouve) {
+			
+			System.out.println("Boucle numéro " + compteur);
+			if(liste[compteur]==nom) {
+				trouve = true;
+			}
+			
+			compteur+=1;
+			
+			
+		}
+
+	}
+
+}
