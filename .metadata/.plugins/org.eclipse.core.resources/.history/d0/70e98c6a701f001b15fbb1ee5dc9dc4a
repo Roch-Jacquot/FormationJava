@@ -1,9 +1,0 @@
-package fr.eql.ai108.collection;
-
-import java.util.Comparator;
-
-import fr.eql.ai108.valref.Personne;
-
-public class PersonneComparatorByAge implements Comparator<Personne> {
-
-}

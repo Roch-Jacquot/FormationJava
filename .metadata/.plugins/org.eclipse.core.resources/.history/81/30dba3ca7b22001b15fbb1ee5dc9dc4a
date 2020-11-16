@@ -1,0 +1,29 @@
+package fr.eql.ai108.bibliothèque.v3;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+
+public class LecteurDAO {
+
+	
+	
+	
+	public boolean creerCompte(String nom, String prenom, String adresse, String login, String password) {
+		File file = new File("Bibliotheque");
+		
+		//boolean createFile = false;
+		
+		if(!file.exists()) {
+			boolean createFile = file.mkdir();
+		}
+		FileWriter fileLogin = null;
+		BufferedWriter bw = null;
+		
+		FileWriter fileLogin = new FileWriter("Bibliotheque/" + login + ".bib");
+		BufferedWriter bw = new BufferedWriter(fileLogin);
+		
+		
+		return true;
+	}
+}

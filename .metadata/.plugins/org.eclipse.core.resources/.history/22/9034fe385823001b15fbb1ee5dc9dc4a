@@ -1,0 +1,16 @@
+package tri;
+
+public class TriSelection {
+
+	public static void main(String[] args) {
+		int[] t = {2, 4, 9, 5, 7, 3, 6, 1};
+
+	}
+	
+	
+	public static void triSelection(int[] tab) {
+		
+		
+	}
+
+}

@@ -1,9 +1,0 @@
-package fr.eql.ai108.exception;
-
-class Calculatrice {
-
-	public double diviser(double dividende, double diviseur) {
-		
-		return dividende/diviseur;
-	}
-}

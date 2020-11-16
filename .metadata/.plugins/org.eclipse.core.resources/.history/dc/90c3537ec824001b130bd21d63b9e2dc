@@ -1,0 +1,20 @@
+package exo.vin;
+
+public class ExoVin {
+
+	public static void main(String[] args) {
+		// 1 - charger fichier/lignes et boucler pour compter les tailles des categories.
+		
+		// 2 - importer ligne i
+			// 2.1 créer tableau de taille max
+			// 2.2 Remplir tableau par catégorie ? (voir tabulations)
+			// 2.3 - écrire tableau dans fichier
+
+		// 3 - Rechercher ?
+			// 3.1 - lire les X premiers octets
+			// 3.2 - utilsier un algo de tri sur ces octets et essayer d'echanger les lignes?
+		
+
+	}
+
+}

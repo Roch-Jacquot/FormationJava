@@ -1,6 +1,0 @@
-package fr.eql.ai108.heritage;
-
-public class InstrumentDeMusique {
-
-	private String nom;
-}

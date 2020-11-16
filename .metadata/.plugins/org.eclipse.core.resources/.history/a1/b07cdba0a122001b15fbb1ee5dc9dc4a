@@ -1,0 +1,28 @@
+package recursivite;
+
+public class Factoriel {
+
+	public static void main(String[] args) {
+		int x = factoriel(8);
+		System.out.println(x);
+
+	}
+	
+	public static int factoriel(int n) {
+		System.out.println(n);
+		
+		if(n == 0) {
+			return 1;
+		}
+		
+		return n*factoriel(n-1);
+		
+	}
+	public static int factorielB(int n) {
+		int res;
+		for(i = 1; i <= n; i++) {
+			
+		}
+	}
+
+}

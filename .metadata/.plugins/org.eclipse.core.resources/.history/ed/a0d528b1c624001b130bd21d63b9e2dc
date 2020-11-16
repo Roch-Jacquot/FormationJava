@@ -1,0 +1,10 @@
+package exo.vin;
+
+public class ExoVin {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

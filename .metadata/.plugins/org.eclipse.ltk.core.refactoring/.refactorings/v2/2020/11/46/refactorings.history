@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;JavaPOO/src/fr.eql.ai108.bibliothèque.v3&apos;&#x0D;&#x0A;- Original project: &apos;v2&apos;&#x0D;&#x0A;- Destination element: &apos;JavaPOO/src/fr.eql.ai108.bibliothèque.v3&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Bibliothèque.java&#x0D;&#x0A;     Lecteur.java&#x0D;&#x0A;     Livre.java&#x0D;&#x0A;     Categorie.java" description="Copy files" destination="=JavaPOO/src&lt;fr.eql.ai108.bibliothèque.v3" element1="Bibliothèque.java" element2="Lecteur.java" element3="Livre.java" element4="Categorie.java" files="4" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1604918941190" units="0" version="1.0"/>
+</session>

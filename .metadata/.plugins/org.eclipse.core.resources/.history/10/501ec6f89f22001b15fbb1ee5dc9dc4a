@@ -1,0 +1,15 @@
+package recursivite;
+
+public class Exemples {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static void afficherR(String lettre, int quantite) {
+		
+		System.out.println(lettre);
+	}
+
+}

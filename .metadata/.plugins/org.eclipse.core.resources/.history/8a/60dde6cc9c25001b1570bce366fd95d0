@@ -1,0 +1,12 @@
+package fr.eql.ai108.date;
+
+public class DemoTime {
+
+	public static void main(String[] args) {
+		// LocalDate, LocalTime, LocalDateTime, ZonesDateTime
+		
+		
+
+	}
+
+}

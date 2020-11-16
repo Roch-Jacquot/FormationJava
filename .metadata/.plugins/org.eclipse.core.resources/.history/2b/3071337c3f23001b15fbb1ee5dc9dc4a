@@ -1,0 +1,19 @@
+package fr.eql.ai108.io;
+
+
+import java.io.File;
+import java.io.IOException;
+import java.io.RandomAccessFile;
+
+
+public class TestRandomAccessFile {
+
+	public static void main(String[] args) {
+		// Le RAF est un fichier binaire à accès directe;
+		
+		RandomAccessFile raf = null;
+		
+		raf = new RandomAccessFile("c:/DossierAI108/raf.bin", "rw")
+	}
+
+}

@@ -1,0 +1,10 @@
+package fr.eql.ai108.log4j;
+
+public class DemoLog4j {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

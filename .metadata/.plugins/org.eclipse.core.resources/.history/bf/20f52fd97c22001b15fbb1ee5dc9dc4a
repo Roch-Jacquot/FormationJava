@@ -1,0 +1,57 @@
+package fr.eql.ai108.bibliothèque.v3;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class LecteurDAO {
+
+	
+	
+	
+	public boolean creerCompte(String nom, String prenom, String adresse, String login, String password) {
+		File file = new File("Bibliotheque");
+		
+		//boolean createFile = false;
+		
+		if(!file.exists()) {
+			boolean createFile = file.mkdir();
+		}
+		
+		
+		FileWriter fileLogin = null;
+		BufferedWriter bw = null;
+		
+		try {
+			fileLogin = new FileWriter("Bibliotheque/" + login + ".bib");
+			bw = new BufferedWriter(fileLogin);
+			bw.write(login);
+			bw.newLine();
+			bw.write(password);
+			bw.newLine();
+			bw.write(nom);
+			bw.newLine();
+			bw.write(prenom);
+			bw.newLine();
+			bw.write(adresse);
+			boolean resultat;
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally {
+			
+			try {
+				bw.close();
+				fileLogin.close();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		
+		
+		
+		return ;
+	}
+}

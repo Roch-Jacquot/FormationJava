@@ -1,0 +1,17 @@
+package fr.eql.ai108.lambda;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class DemoForEachLamda {
+
+	public static void main(String[] args) {
+
+
+		List<String> items = new ArrayList<String>();
+		Collections.addAll(items, "A", "B", "C", "D", "E");
+
+	}
+
+}

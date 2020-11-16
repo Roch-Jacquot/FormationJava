@@ -1,0 +1,47 @@
+package exo.vin;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+//C:/Users/formation/Desktop/WorkspaceAlgoAvance/algo-avancee/cours/tp vins/
+public class ExoVin {
+
+	public static void main(String[] args) {
+		// 1 - charger fichier/lignes et boucler pour compter les tailles des categories.
+		FileReader in = null;
+		BufferedReader br = null;
+		
+		try {
+			in = new FileReader("c:/Users/formation/Desktop/WorkspaceAlgoAvance/algo-avancee/cours/tp vins/VINStp.DON");
+			br = new BufferedReader(in);
+			String ligne1 = br.readLine();
+			System.out.println(ligne1);
+			
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally {
+			
+			try {
+				br.close();
+				in.close();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+		}
+		
+		// 2 - importer ligne i
+			// 2.1 créer tableau de taille max
+			// 2.2 Remplir tableau par catégorie ? (voir tabulations)
+			// 2.3 - écrire tableau dans fichier
+
+		// 3 - Rechercher ?
+			// 3.1 - lire les X premiers octets
+			// 3.2 - utilsier un algo de tri sur ces octets et essayer d'echanger les lignes?
+		
+
+	}
+
+}

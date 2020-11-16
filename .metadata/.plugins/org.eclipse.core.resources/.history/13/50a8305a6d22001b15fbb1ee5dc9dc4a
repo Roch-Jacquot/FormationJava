@@ -1,0 +1,21 @@
+package fr.eql.ai108.io;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class testWriter {
+
+	public static void main(String[] args) {
+		FileWriter fw = null;
+		
+		try {
+			fw = new FileWriter("c:/AI108/testFW.txt", true);
+			fw.write("Hello AI108 \r\n");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+}

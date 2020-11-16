@@ -6,8 +6,15 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="set"/>
+		<item key="selection" value="seek"/>
 		<list key="findhistory">
+			<item value="seek"/>
+			<item value="chemin"/>
+			<item value="writ"/>
+			<item value="rand"/>
+			<item value="System"/>
+			<item value="sysout"/>
+			<item value="setli"/>
 			<item value="set"/>
 		</list>
 		<list key="replacehistory">

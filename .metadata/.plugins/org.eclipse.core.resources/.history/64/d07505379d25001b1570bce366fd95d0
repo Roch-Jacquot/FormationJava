@@ -1,0 +1,21 @@
+package fr.eql.ai108.date;
+
+import java.time.LocalDate;
+
+public class DemoTime {
+
+	public static void main(String[] args) {
+		// LocalDate, LocalTime, LocalDateTime, ZonesDateTime
+		
+		//Date d'aujourd'hui
+		LocalDate dateAjd = LocalDate.now();
+		System.out.println("Aujourd'hui nous sommes: " + dateAjd);
+		
+		
+		//Date précise:
+		LocalDate uneDate = LocalDate.of(2017, 1, 25);
+		System.out.println(uneDate);
+
+	}
+
+}

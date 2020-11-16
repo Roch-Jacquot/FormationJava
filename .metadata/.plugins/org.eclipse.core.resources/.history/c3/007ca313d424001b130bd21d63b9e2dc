@@ -1,0 +1,148 @@
+package exo.vin;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+//C:/Users/formation/Desktop/WorkspaceAlgoAvance/algo-avancee/cours/tp vins/
+public class ExoVin {
+
+	public static void main(String[] args) {
+		
+		int[] espaces = compteEspaces();
+		
+		for (int i = 0; i < espaces.length; i++) {
+			System.out.println(espaces[i]);
+		}
+		// 1 - charger fichier/lignes et boucler pour compter les tailles des categories.
+			// 1.0 - initialiser des variables de comptage par catégorie et
+			// initialiser les FileReader et le BufferedReader
+		
+				// 1.1 ouverture d'une boucle while (temps qu'il reste des lignes)
+				// 1.2 Charger une ligne avec le le FileReader et le BufferedReader et
+				// initialiser des variables de comptage par catégorie
+				// 1.3 Boucler une fois sur la ligne et s'arrêter à "\t" pour compter la taille du nom;
+		
+		// 2 - importer ligne i
+			//initialiser nos FileReaders et BufferedReaders.
+			// 2.1 créer tableau de taille max
+			// 2.2 Remplir tableau par catégorie ? (voir tabulations)
+			// 2.3 - écrire tableau dans fichier
+
+		// 3 - Rechercher ?
+			// 3.1 - lire les X premiers octets
+			// 3.2 - utilsier un algo de tri sur ces octets et essayer d'echanger les lignes?
+		
+
+	}
+	
+	
+	public static int[] compteEspaces(String path) {
+		FileReader in = null;
+		BufferedReader br = null;
+		int tailleNom = 0;
+		int tailleAppel = 0;
+		int tailleRegion = 0;
+		int tailleReference = 0;
+		int tailleSurface = 0;
+		int ref2 = 0;
+		int tab = 0;
+		int maxNom = 0;
+		int maxAppel = 0;
+		int maxRegion = 0;
+		int maxReference = 0;
+		int maxSurface = 0;
+		int maxRef2 = 0;
+		
+			// 1.1 ouverture d'une boucle while (temps qu'il reste des lignes)
+				// 1.2 Charger une ligne avec le le FileReader et le BufferedReader et
+				// initialiser des variables de comptage par catégorie
+				// 1.3 Boucler une fois sur la ligne et s'arrêter à "\t" pour compter la taille du nom;
+		try {
+			in = new FileReader(path);
+			br = new BufferedReader(in);
+			while(br.readLine() != null) {
+				String ligne1 = br.readLine();
+				System.out.println(ligne1);
+				for (int i = 0; i < ligne1.length(); i++) {
+					
+					if(ligne1.charAt(i) == '\t') {
+						tab += 1;
+						i +=1;
+					}
+					if(tab == 0) {
+						tailleNom += 1;
+					}
+					if(tab == 1) {
+						tailleAppel += 1;
+					}
+					if(tab == 2) {
+						tailleRegion += 1;
+					}
+					if(tab == 3) {
+						tailleReference += 1;
+					}
+					if(tab == 4) {
+						tailleSurface += 1;
+					}
+					if(tab == 5) {
+						ref2 += 1;
+					}
+					
+				}
+//				System.out.println("nom: " + tailleNom + " Appel: " + tailleAppel + " region: " + tailleRegion
+//						+ " reference 1: " + tailleReference + " Surface: " +  tailleSurface +
+//						" Ref2: " + ref2);
+				//bloc comparaison
+				if (tailleNom > maxNom) {
+					maxNom = tailleNom;
+				}
+				if (tailleAppel > maxAppel) {
+					maxAppel = tailleAppel;
+				}
+				if (tailleRegion > maxRegion) {
+					maxRegion = tailleRegion;
+				}
+				if (tailleReference > maxReference) {
+					maxReference = tailleReference;
+				}
+				if (tailleSurface > maxSurface) {
+					maxSurface = tailleSurface;
+				}
+				if (ref2 > maxRef2) {
+					maxRef2 = ref2;
+				}
+				
+				//Bloc réinitialisation pour la boucle
+				tab = 0;
+				tailleNom = 0;
+				tailleAppel = 0;
+				tailleRegion = 0;
+				tailleReference = 0;
+				tailleSurface = 0;
+				ref2 = 0;
+
+			}
+
+//			System.out.println(" LES MAX     nom: " + maxNom + " Appel: " + maxAppel + " region: " + maxRegion
+//					+ " reference 1: " + maxReference + " Surface: " +  maxSurface +
+//					" Ref2: " + maxRef2);
+			
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally {
+			
+			try {
+				br.close();
+				in.close();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+		}
+		int[] resultat = {maxNom, maxAppel, maxRegion, maxReference, maxSurface, maxRef2};
+		return resultat;
+	}
+
+}

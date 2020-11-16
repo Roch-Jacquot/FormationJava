@@ -1,8 +1,0 @@
-package stacks;
-
-public class EmpilerDepiler {
-
-	public static void main(String[] args) {
-		
-	}
-}

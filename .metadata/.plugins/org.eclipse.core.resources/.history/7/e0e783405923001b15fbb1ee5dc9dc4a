@@ -1,0 +1,27 @@
+package tri;
+
+public class TriSelection {
+
+	public static void main(String[] args) {
+		int[] t = {2, 4, 9, 5, 7, 3, 6, 1};
+
+	}
+	
+	
+	public static void triSelection(int[] tab) {
+		int temp = 0;
+		int len = tab.length;
+		
+		for (int j = 0; j < tab.length; j++) {
+			
+		}
+		for (int i = 0; i < len; i++) {
+			if(tab[i] < tab[temp]) {
+				temp = i;
+			}
+		}
+		int holder = tab[temp];
+		tab[temp] = tab[j]
+	}
+
+}

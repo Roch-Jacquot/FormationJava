@@ -1,5 +1,0 @@
-package fr.eql.ai108.exception;
-
-public class GrandNombreException {
-
-}

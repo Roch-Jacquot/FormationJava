@@ -1,0 +1,11 @@
+package fr.eql.ai108.lambda;
+
+public class DemoForEachMapLamda {
+
+	public static void main(String[] args) {
+
+		Map<String, Integer> items = new HashMap<String, Integer>();
+
+	}
+
+}

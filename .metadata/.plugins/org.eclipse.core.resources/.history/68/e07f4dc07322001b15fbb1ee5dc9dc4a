@@ -1,0 +1,26 @@
+package fr.eql.ai108.io;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+
+public class TestReader {
+
+	public static void main(String[] args) {
+		// FileReader
+		FileReader fr = null;
+		try {
+			fr = new FileReader("c:/DossierAI108/testFW.txt");
+			int caractere = 0;
+			String chaine ="";
+			
+			//Methode read renvoie -1 quand il n'y a plus rien à lire
+			
+			while(caractere = fr.read() != -1)
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+}

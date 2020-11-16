@@ -1,0 +1,18 @@
+package fr.eql.ai108.io;
+
+import java.io.File;
+
+public class DemoFile {
+
+	public static void main(String[] args) {
+		// instancier un File
+		
+		File file = new File("c:/DossierAI108");
+		
+		//mkdir permet de créer un dossier
+		//cette methode renvoie true si le dossier a bien été créé
+		boolean create = file.mkdir();
+
+	}
+
+}

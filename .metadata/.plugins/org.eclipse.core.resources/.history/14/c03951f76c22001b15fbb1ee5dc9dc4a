@@ -1,0 +1,12 @@
+package fr.eql.ai108.io;
+
+import java.io.FileWriter;
+
+public class testWriter {
+
+	public static void main(String[] args) {
+		FileWriter = null;
+
+	}
+
+}

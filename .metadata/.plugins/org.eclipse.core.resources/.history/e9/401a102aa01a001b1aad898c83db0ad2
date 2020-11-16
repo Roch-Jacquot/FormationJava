@@ -1,7 +1,0 @@
-package fr.eql.ai108.realPOO;
-
-public class Collier {
-	
-	private String couleur;
-	private String matiere;
-}

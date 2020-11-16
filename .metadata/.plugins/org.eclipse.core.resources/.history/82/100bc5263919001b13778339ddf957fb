@@ -1,9 +1,0 @@
-package fr.eql.ai108.poo;
-
-public class Chien {
-	public String nom;
-	public int age;
-
-
-
-}

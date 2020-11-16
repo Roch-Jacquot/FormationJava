@@ -1,0 +1,14 @@
+package exo.vin;
+
+public class ExoVin {
+
+	public static void main(String[] args) {
+		// 1 - charger fichier et boucler pour compter les tailles des categories.
+		
+		// 2 - importer ligne i
+			// 2.1 créer tableau de taille max
+
+
+	}
+
+}

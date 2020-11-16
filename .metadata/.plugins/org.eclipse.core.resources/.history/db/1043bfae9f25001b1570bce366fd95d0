@@ -1,0 +1,49 @@
+package fr.eql.ai108.date;
+
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
+
+public class DemoTime {
+
+	public static void main(String[] args) {
+		// LocalDate, LocalTime, LocalDateTime, ZonesDateTime
+		
+		//Date d'aujourd'hui
+		LocalDate dateAjd = LocalDate.now();
+		System.out.println("Aujourd'hui nous sommes: " + dateAjd);
+		
+		
+		//Date précise: l'année ne commence plus à 1900 et l'index des mois commence à un
+		LocalDate uneDate = LocalDate.of(2017, 1, 25);
+		System.out.println(uneDate);
+		
+		//Modifier une date avec la méthode "with"
+		LocalDate dateModifiee = uneDate.withYear(2020);
+		System.out.println(dateModifiee);
+		
+		//Convertir la chaine en date en lui donnant un pattern
+		LocalDate dateParsee = LocalDate.parse("2017-02-09", DateTimeFormatter.ofPattern("yyyy-MM-dd"));
+		System.out.println("Date formatée " + dateParsee);
+		
+		
+		//Incrémenter ou décrémenter la date +- 
+		//ajouter un jour
+		LocalDate dateIncrementJour = uneDate.plusDays(32);
+		System.out.println(dateIncrementJour);
+		
+		
+		//Enlever un mois*
+		LocalDate dateDecrementerMois = uneDate.minusMonths(2);
+		System.out.println(dateDecrementerMois);
+		
+		
+		//LOCALTIME : Time sans date
+		LocalTime maintenant = LocalTime.now();
+		System.out.println(maintenant);
+		
+		LocalTime heureParsee = LocalTime.parse("17:45");
+		
+	}
+
+}

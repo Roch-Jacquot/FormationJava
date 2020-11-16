@@ -1,0 +1,15 @@
+package fr.eql.ai108.io;
+
+
+import java.io.File;
+import java.io.IOException;
+
+
+public class TestRandomAccessFile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

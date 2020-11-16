@@ -1,5 +1,0 @@
-package fr.eql.ai108.collection;
-
-public class PersonneComparatorByAge {
-
-}

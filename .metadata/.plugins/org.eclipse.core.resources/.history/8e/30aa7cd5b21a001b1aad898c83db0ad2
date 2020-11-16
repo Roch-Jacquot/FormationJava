@@ -1,5 +1,0 @@
-package fr.eql.ai108.realPOO;
-
-public class Jouet {
-	private String libelle;
-}
