@@ -29,6 +29,9 @@ public class DemoTime {
 		LocalDate dateParsee = LocalDate.parse("2017-02-09", DateTimeFormatter.ofPattern("yyyy-MM-dd"));
 		System.out.println("Date formatée " + dateParsee);
 		
+		//Formater l'afichage d'une date 
+		String dateFormatee = dateParsee.format(DateTimeFormatter.ofPattern("dd/MM/yyyy"));
+		System.out.println("Date formatée 2:" + dateFormatee);
 		
 		//Incrémenter ou décrémenter la date +- 
 		//ajouter un jour
@@ -51,12 +54,27 @@ public class DemoTime {
 		LocalTime ajoutMinute = heureParsee.plusMinutes(30);
 		System.out.println(ajoutMinute);
 		
+		
+		//LOCALDATETIME
+		LocalDateTime dateTimeNow = LocalDateTime.now();
+		System.out.println("LocalDateTime: " + dateTimeNow);
+		LocalDateTime uneDateTime = LocalDateTime.of(2020, 2, 28, 6, 30, 45);
+		System.out.println("Autre LocalDateTime: " + uneDateTime);
+		
+		ZoneId tokyoZone = ZoneId.of("Asia/Tokyo");
+		LocalDateTime tokyo = LocalDateTime.now(tokyoZone);
+		System.out.println("A tokyo: " + tokyo);
+		
 		//ZonesDateTime
 		ZonedDateTime zoneDateTime = ZonedDateTime.of(LocalDateTime.now(), ZoneId.systemDefault());
 		System.out.println(zoneDateTime);
 		
 		ZonedDateTime australiaSydneyZonesDateTime = ZonedDateTime.of(LocalDateTime.now(), ZoneId.of("Australia/Sydney"));
 		System.out.println(australiaSydneyZonesDateTime);
+		
+		
+		ZonedDateTime tokyoZoneDateTime = ZonedDateTime.of(LocalDateTime.now(tokyoZone), tokyoZone);
+		System.out.println("Fuseau horaire " + tokyoZoneDateTime.getZone());
 	}
 
 }

@@ -66,7 +66,7 @@ public class ExoVinBisBis {
 		//System.out.println(espaces[0] + espaces[1] + espaces[2] + espaces[3] + espaces[4] + espaces[5]);
 		int tailleLigne = espaces[0] + espaces[1] + espaces[2] + espaces[3] + espaces[4] + espaces[5];
 		int len = 390;
-		
+	
 		//Creation du fichier nettoye
 		
 		//creationFichier(path, fichierResultat, espaces);
@@ -80,7 +80,7 @@ public class ExoVinBisBis {
 
 			//triTexte(raf, fichierResultat, espaces[0], len, tailleLigne);
 			
-			rechercheDichotomique("Château Suduiraut", rafCherche, espaces[0], tailleLigne);
+			rechercheDichotomique("Chï¿½teau Suduiraut", rafCherche, espaces[0], tailleLigne);
 			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
@@ -295,6 +295,7 @@ public class ExoVinBisBis {
 			raf = new RandomAccessFile(fichierResultat, "rw");
 			in = new FileReader(path);
 			br = new BufferedReader(in);
+			BufferedWriter bw = new BufferedWriter(new FileWriter(fichierResultat));
 			
 			//Effacer l'ancien fichier
 			File nettoyage = new File(fichierResultat);
@@ -409,7 +410,7 @@ public class ExoVinBisBis {
 			
 			while((!trouve && !rechercheTermine) /*&& test != 4*/) {
 				
-				System.out.print("Portion de " + debut + " a  " + fin + " : ");
+				System.out.print("Portion de " + debut + " aï¿½ " + fin + " : ");
 				
 				int milieu = (debut + (int) fin)/2;
 				

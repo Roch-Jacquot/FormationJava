@@ -6,16 +6,23 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="seek"/>
+		<item key="selection" value="getT"/>
 		<list key="findhistory">
-			<item value="seek"/>
-			<item value="chemin"/>
-			<item value="writ"/>
-			<item value="rand"/>
-			<item value="System"/>
-			<item value="sysout"/>
-			<item value="setli"/>
-			<item value="set"/>
+			<item value="getT"/>
+			<item value="table"/>
+			<item value="dao"/>
+			<item value="cbMaisonProduction"/>
+			<item value="getCbMaisonProduction"/>
+			<item value="obseva"/>
+			<item value="grp"/>
+			<item value=" grp"/>
+			<item value="Titre"/>
+			<item value="Nb"/>
+			<item value="Left"/>
+			<item value="left"/>
+			<item value="displ"/>
+			<item value="reloca"/>
+			<item value="ecrire"/>
 		</list>
 		<list key="replacehistory">
 		</list>

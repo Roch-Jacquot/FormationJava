@@ -24,6 +24,9 @@ public class DemoForEachMapLamda {
 		
 			//Java 8
 		items.forEach((k,v) -> System.out.println("Item: " + k + " Values: " + v));
+		
+		
+		
 	}
 
 }
